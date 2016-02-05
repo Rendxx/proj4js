@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{8DB4FA20-DD48-4513-8894-4669D32221D4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <UseGlobalApplicationHostFile />
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="dist\proj4-src.js" />
+    <Content Include="dist\proj4.js" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="gulpfile.js" />
+    <Content Include="lib\adjust_axis.js" />
+    <Content Include="lib\common\acosh.js" />
+    <Content Include="lib\common\adjust_lat.js" />
+    <Content Include="lib\common\adjust_lon.js" />
+    <Content Include="lib\common\asinh.js" />
+    <Content Include="lib\common\asinz.js" />
+    <Content Include="lib\common\atanh.js" />
+    <Content Include="lib\common\cosh.js" />
+    <Content Include="lib\common\e0fn.js" />
+    <Content Include="lib\common\e1fn.js" />
+    <Content Include="lib\common\e2fn.js" />
+    <Content Include="lib\common\e3fn.js" />
+    <Content Include="lib\common\fL.js" />
+    <Content Include="lib\common\gN.js" />
+    <Content Include="lib\common\imlfn.js" />
+    <Content Include="lib\common\inverseNadCvt.js" />
+    <Content Include="lib\common\invlatiso.js" />
+    <Content Include="lib\common\iqsfnz.js" />
+    <Content Include="lib\common\latiso.js" />
+    <Content Include="lib\common\mlfn.js" />
+    <Content Include="lib\common\msfnz.js" />
+    <Content Include="lib\common\nadInterBreakout.js" />
+    <Content Include="lib\common\nad_cvt.js" />
+    <Content Include="lib\common\nad_intr.js" />
+    <Content Include="lib\common\phi2z.js" />
+    <Content Include="lib\common\pj_enfn.js" />
+    <Content Include="lib\common\pj_inv_mlfn.js" />
+    <Content Include="lib\common\pj_mlfn.js" />
+    <Content Include="lib\common\qsfnz.js" />
+    <Content Include="lib\common\sign.js" />
+    <Content Include="lib\common\sinh.js" />
+    <Content Include="lib\common\srat.js" />
+    <Content Include="lib\common\tanh.js" />
+    <Content Include="lib\common\toPoint.js" />
+    <Content Include="lib\common\tsfnz.js" />
+    <Content Include="lib\constants\Datum.js" />
+    <Content Include="lib\constants\Ellipsoid.js" />
+    <Content Include="lib\constants\grids.js" />
+    <Content Include="lib\constants\PrimeMeridian.js" />
+    <Content Include="lib\constants\units.js" />
+    <Content Include="lib\core.js" />
+    <Content Include="lib\datum.js" />
+    <Content Include="lib\datum_transform.js" />
+    <Content Include="lib\defs.js" />
+    <Content Include="lib\deriveConstants.js" />
+    <Content Include="lib\extend.js" />
+    <Content Include="lib\global.js" />
+    <Content Include="lib\includedProjections.js" />
+    <Content Include="lib\index.js" />
+    <Content Include="lib\parseCode.js" />
+    <Content Include="lib\Point.js" />
+    <Content Include="lib\Proj.js" />
+    <Content Include="lib\projections.js" />
+    <Content Include="lib\projections\aea.js" />
+    <Content Include="lib\projections\aeqd.js" />
+    <Content Include="lib\projections\cass.js" />
+    <Content Include="lib\projections\cea.js" />
+    <Content Include="lib\projections\eqc.js" />
+    <Content Include="lib\projections\eqdc.js" />
+    <Content Include="lib\projections\equi.js" />
+    <Content Include="lib\projections\gauss.js" />
+    <Content Include="lib\projections\gnom.js" />
+    <Content Include="lib\projections\gstmerc.js" />
+    <Content Include="lib\projections\krovak.js" />
+    <Content Include="lib\projections\laea.js" />
+    <Content Include="lib\projections\lcc.js" />
+    <Content Include="lib\projections\longlat.js" />
+    <Content Include="lib\projections\merc.js" />
+    <Content Include="lib\projections\mill.js" />
+    <Content Include="lib\projections\moll.js" />
+    <Content Include="lib\projections\nzmg.js" />
+    <Content Include="lib\projections\omerc.js" />
+    <Content Include="lib\projections\ortho.js" />
+    <Content Include="lib\projections\poly.js" />
+    <Content Include="lib\projections\sinu.js" />
+    <Content Include="lib\projections\somerc.js" />
+    <Content Include="lib\projections\stere.js" />
+    <Content Include="lib\projections\sterea.js" />
+    <Content Include="lib\projections\tmerc.js" />
+    <Content Include="lib\projections\utm.js" />
+    <Content Include="lib\projections\vandg.js" />
+    <Content Include="lib\projString.js" />
+    <Content Include="lib\transform.js" />
+    <Content Include="lib\wkt.js" />
+    <Content Include="test\amd.html" />
+    <Content Include="test\opt.html" />
+    <Content Include="test\package.json.js" />
+    <Content Include="test\test.js" />
+    <Content Include="test\testData.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="AUTHORS" />
+    <None Include="bower.json" />
+    <None Include="bundle.json" />
+    <Content Include="changelog.md" />
+    <Content Include="component.json" />
+    <Content Include="LICENSE.md" />
+    <Content Include="publish.sh" />
+    <Content Include="PUBLISHING.md" />
+    <Content Include="README.md" />
+    <Content Include="REFERENCES.md" />
+    <None Include="package.json" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>proj4js</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
